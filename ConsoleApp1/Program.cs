@@ -1,25 +1,53 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 
-using System;
+// using System;
 
-namespace ClassTeams
+// namespace ClassTeams
+// {
+//   class Program
+//   {
+//     static void Main(string[] args)
+//     {
+//       // Number of students
+//       int students = 18;
+      
+
+
+//       // Number of students in a group
+//       int groupSize = 3;
+
+
+//       // Does groupSize go evenly into students?
+//       Console.WriteLine(students % groupSize);
+//     }
+//   }
+// };
+
+
+
+namespace LowestNumber
 {
   class Program
   {
     static void Main(string[] args)
     {
-      // Number of students
-      int students = 18;
-      
+      // Starting variables 
+      int numberOne = 12932;
+      int numberTwo = -2828472;
+
+      // Use built-in methods and save to variable 
+      double numberOneSqrt = Math.Floor(Math.Sqrt(numberOne));
 
 
-      // Number of students in a group
-      int groupSize = 3;
+      // Use built-in methods and save to variable 
+      double numberTwoSqrt = Math.Floor(Math.Sqrt(Math.Abs(numberTwo)));
 
 
-      // Does groupSize go evenly into students?
-      Console.WriteLine(students % groupSize);
+      // Print the lowest number
+      Console.WriteLine(Math.Min(numberOneSqrt,numberTwoSqrt));
+
+
     }
   }
 }
