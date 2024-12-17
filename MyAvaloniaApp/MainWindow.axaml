@@ -6,4 +6,9 @@
         x:Class="MyAvaloniaApp.MainWindow"
         Title="MyAvaloniaApp">
     Welcome to Avalonia!
+
+        <StackPanel>
+            <TextBlock Name="messageText" Text="Hello, Avalonia!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button Content="Click Me" HorizontalAlignment="Center" VerticalAlignment="Center" Click="OnButtonClick"/>
+    </StackPanel>
 </Window>
