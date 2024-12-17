@@ -11,7 +11,7 @@
 //     {
 //       // Number of students
 //       int students = 18;
-      
+
 
 
 //       // Number of students in a group
@@ -52,9 +52,166 @@
 //   }
 // }
 
-for (int i=0;i<5;i++){
-    Console.WriteLine("First"+i);
-}
+// for (int i=0;i<5;i++){
+//     Console.WriteLine("First"+i);
+// }
+
+
+// string firstName = "Jhon";
+// string lastName = "Cena";
+// string fullName = $"My full name is :{firstName }  {lastName}";
+// Console.WriteLine(fullName);
+
+
+// string name = "Hello";
+// Console.WriteLine(name[4]);
+
+
+// int x =20;
+// int y =25;
+// if(x>y)
+// {
+//     Console.WriteLine("x is greater than y");
+// }
+// else
+// {
+//     Console.WriteLine("x isn't greater than y");
+// }
+
+
+// int time = 20;
+// if(time >30){
+//     Console.WriteLine("Good Morning");
+// } 
+// else if (time >10)
+// {
+//     Console.WriteLine("Good afternoon");
+// }
+// else
+// {
+//     Console.WriteLine("Good night");
+// }
+
+
+// int time =20;
+// string result = (time > 18)? "Good Day." : "Good Afternoon.";
+// Console.WriteLine(result);
 
 
 
+// int day = 2;
+// switch (day) {
+//     case 1:
+//         Console.WriteLine("Monday");
+//         break;
+//     case 2:
+//         Console.WriteLine("Tuesday");
+//         break;
+//     case 3:
+//         Console.WriteLine("Wednesday");
+//         break;
+//     case 4:
+//         Console.WriteLine("Thursday");
+//         break;
+//     case 5:
+//         Console.WriteLine("Friday");
+//         break;
+//     case 6:
+//         Console.WriteLine("Saturday");
+//         break;
+//     case 7:
+//         Console.WriteLine("Sunday");
+//         break;}
+
+
+
+// string name = "Ban";
+// while (name.Length < 5){
+//     Console.WriteLine(name);
+//     name+= "a";
+// }
+
+
+// int i = 0;
+// do 
+// {
+//   Console.WriteLine(i);
+//   i++;
+// }
+// while (i < 5);
+
+
+// for (int i = 0; i < 10;i ++){
+//     Console.WriteLine(i);
+// }
+
+// using System.Runtime.InteropServices;
+
+// string [] cars=  ["BMW","TOYOTA","AUDI","MERCEDES","LEXUS"];
+// foreach (string i in cars)
+// {
+//     Console.WriteLine(i);
+// }
+
+
+// for (int i = 0; i < 10;i ++){
+//     if (i == 4){
+//         break;
+//     }
+//     Console.WriteLine(i);
+// }
+
+
+
+// int i = 0;
+// while (i < 10) 
+// {
+//   if (i == 4) 
+//   {
+//     i++;
+//     continue;
+//   }
+//   Console.WriteLine(i);
+//   i++;
+// }
+
+
+// sort string 
+// string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+// for (int i = 0; i < cars.Length; i++) 
+// {
+//   Console.WriteLine(cars[i]);
+// }
+
+// sort init 
+
+// int[] numbers = {1,2,3,4,5};
+// Array.Sort(numbers);
+// foreach (int i in numbers){
+//     Console.WriteLine(i);
+// }
+
+
+
+// int[,] numbers = {{1,2,3},{4,5,6}};
+// numbers[0,0] =5;
+// Console.WriteLine(numbers[0,0]);
+
+
+// int[,] numbers = { {1, 4, 2}, {3, 6, 8} };
+
+// foreach (int i in numbers)
+// {
+//   Console.WriteLine(i);
+// }
+
+
+int[,] numbers = { {1, 4, 2}, {3, 6, 8} };
+
+for (int i = 0; i < numbers.GetLength(0); i++) 
+{ 
+  for (int j = 0; j < numbers.GetLength(1); j++) 
+  { 
+    Console.WriteLine(numbers[i, j]); 
+  } 
+} 
