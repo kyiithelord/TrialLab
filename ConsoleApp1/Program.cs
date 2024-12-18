@@ -206,12 +206,85 @@
 // }
 
 
-int[,] numbers = { {1, 4, 2}, {3, 6, 8} };
+// int[,] numbers = { {1, 4, 2}, {3, 6, 8} };
 
-for (int i = 0; i < numbers.GetLength(0); i++) 
-{ 
-  for (int j = 0; j < numbers.GetLength(1); j++) 
-  { 
-    Console.WriteLine(numbers[i, j]); 
-  } 
-} 
+// for (int i = 0; i < numbers.GetLength(0); i++) 
+// { 
+//   for (int j = 0; j < numbers.GetLength(1); j++) 
+//   { 
+//     Console.WriteLine(numbers[i, j]); 
+//   } 
+// } 
+
+
+
+
+// using System;
+
+// class Program
+// {
+// static void MyMethod(string name ,int age)
+//   {
+//     Console.WriteLine(name + " is " + age);
+//   }
+//   static void Main(string[] args)
+//   {
+//     MyMethod("Mg Mg",15);
+//     MyMethod("Aung Aung" , 15);
+//     MyMethod("Zaw Zaw" , 25);
+//   }
+// }
+
+
+
+// using System;
+//  class Program
+// {
+//   static int MyMethod(int x)
+//   {
+//     return(5+x);
+//   }
+//   static void Main(string[] args)
+//   {
+//     Console.WriteLine(MyMethod(3));
+//   }
+// }
+
+
+
+
+// using System;
+// class Progran
+// {
+//   static void MyMethod(string child1, string child2, string child3)
+//   {
+//     Console.WriteLine("The youngest child is " + child3);
+//   }
+//     static void Main(string[] args)
+//     {
+//       MyMethod(child1: "Jhon", child2: "Cena",child3: "EasyE");
+//     }
+// }
+
+
+
+using System;
+class Program
+{
+  static int PlusMethodInt(int x, int y)
+  {
+    return x + y;
+  }
+  static double plusMethodDouble(double x, double y)
+  {
+    return x + y;
+  }
+  static void Main(string[] args)
+  {
+    int myNum1 = PlusMethodInt(8,5);
+    double myNum2 = plusMethodDouble(3.5,8.5);
+    Console.WriteLine("Int : " + myNum1);
+    Console.WriteLine("Double : " + myNum2);
+
+  }
+}
